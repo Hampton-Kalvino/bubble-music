@@ -41,7 +41,7 @@ var useLowercaseLetters = confirm("Do you want to include lowercase characters?"
 const password = generateRandomPassword(passLength, useSymbols, useLowercaseLetters);
 console.log(password);
 
-// Link the password to the HTML input field
+// Link the password to the HTML
 passwordText.value = password;
 
 // Add event listener to the generate button
